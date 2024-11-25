@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 import joblib
 
 # Load the dataset
-data = pd.read_csv('data/phishing_dataset.csv')  # Ensure your dataset is in the data/ folder
+data = pd.read_csv('data/Phishing_Legitimate_full.csv')  # Ensure your dataset is in the data/ folder
 
 # Extract features from URLs
 def extract_features(url):
